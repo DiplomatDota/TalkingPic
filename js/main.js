@@ -109,12 +109,12 @@ window.OnDllOnInputHookEvent = function(msg, wparam, lparam){
             if(wparam==111){
                 expressing=true;
                 document.getElementById('talkingPic')
-                    .innerHTML = '<img src="1.png" />';
+                    .innerHTML = '<img src="expression1.png" />';
             }
             if(wparam==106){
                 expressing=true;
                 document.getElementById('talkingPic')
-                    .innerHTML = '<img src="2.png" />';
+                    .innerHTML = '<img src="expression2.png" />';
             }
             break;
         case HOOK_MESSAGE_TYPE.WM_KEYUP:
